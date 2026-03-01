@@ -1,0 +1,35 @@
+# === Python 缓存与编译文件 ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# === Jupyter Notebook 缓存 ===
+.ipynb_checkpoints
+
+# === 虚拟环境 ===
+venv/
+env/
+.env/
+
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.bin
+*.pkl
+
+
+data/
+!data/sample_data/  # 忽略 data 文件夹，但保留 data/sample_data/
+checkpoints/
+logs/
+runs/
