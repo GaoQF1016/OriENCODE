@@ -9,7 +9,7 @@ This repository contains the official implementation for the paper: **"Mitigatin
 ## 📖 Introduction
 Single-molecule localization microscopy (SMLM) often suffers from performance degradation in thick perinuclear regions due to severe structured noise from out-of-focus fluorescence and overlapping point spread functions (PSFs). These issues obscure faint in-focus emitters and bias localization estimates, preventing conventional methods from reaching theoretical precision limits. 
 
-To address this challenge, we present **ORIENCODE (ORIENtation-ENCODEd)**, a robust, physically interpretable deep-learning framework designed for high-density single-molecule localization under complex out-of-focus interference.
+To address this challenge, we present **ORIENCODE (ORIENtation-ENCODEd)**, a robust, physically interpretable deep-learning framework designed for single-molecule localization under complex out-of-focus interference.
 
 **Key Features and Contributions:**
 * **Geometric Perception via Euler's Elastica Energy:** ORIENCODE leverages an Euler's elastica energy model to jointly constrain boundary length and curvature. This allows the network to robustly distinguish in-focus emitters (compact, uniform curvature) from out-of-focus diffuse backgrounds.
